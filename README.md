@@ -23,3 +23,7 @@ As principais tags revistas foram:
 - Estilização de imagens
 - hover
 - estilização geral com o uso de id e class
+
+**JavaSvript**
+- Funções básicas de JavaScript
+- Manipulação do DOM
