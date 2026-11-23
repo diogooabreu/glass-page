@@ -1,14 +1,32 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass - Entre em contato</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
 
-[AQUI ENTRA UMA FOTO]
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone" src="assets/imagens/contato.png">
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onmouseover="mudaFoto('assets/imagens/home.png')" onmouseout="mudaFoto('assets/imagens/contato.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('assets/imagens/especificacoes.png')" onmouseout="mudaFoto('assets/imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="mudaFoto('assets/imagens/fotos.png')" onmouseout="mudaFoto('assets/imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('assets/imagens/multimidia.png')" onmouseout="mudaFoto('assets/imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="mudaFoto('assets/imagens/contato.png')" onmouseout="mudaFoto('assets/imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+        </header>
 
 Fale Conosco > Contato
 Formulário de Contato
@@ -43,5 +61,16 @@ Quero um Google Glass
 
 [BOTÃO ENVIAR]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+        <footer id="rodape">
+            <p>
+                Copyright &copy;2013 - by Gustavo Guanabara <br>
+                <a href="https://facebook.com">Facebook |</a>
+                <a href="https://twitter.com">Twitter</a>
+            </p>
+
+        </footer>
+    </div>
+
+    <script src="assets/scripts/funcoes.js"></script>
+</body>
+</html>
